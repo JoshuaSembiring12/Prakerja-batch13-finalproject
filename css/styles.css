@@ -1,0 +1,132 @@
+/* CSS untuk tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBE2EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-color: #112D4E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Mengatur menu ke rata kanan */
+}
+nav li {
+    margin: 0 20px;
+}
+/* Menghapus underline pada tautan navigasi */
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+section {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+/* CSS untuk konten setiap bagian */
+.about {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.experiences {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.education {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.skills {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.interests {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.award {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #F9F7F7;
+}
+.about img, .experiences img, .education img, .skills img, .interests img, .award img {
+    max-width: 400px;
+    height: auto;
+}
+
+footer {
+    background-color: #112D4E; /* Warna latar belakang baru */
+    color: #fff; /* Warna teks */
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    /* Gaya CSS untuk layar berukuran kecil (tablet) */
+}
+
+@media (max-width: 480px) {
+    /* Gaya CSS untuk layar berukuran sangat kecil (ponsel) */
+}
+.skills {
+    background-color: #3F72AF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #fff;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    width: 0;
+    height: 100%;
+    background-color: #F76C6C; /* Warna untuk tingkat keterampilan yang diisi */
+    transition: width 1s ease-in-out;
+}
+
+/* Animasi mengisi tingkat keterampilan */
+.skill:hover .skill-level {
+    width: 100%;
+}
+.award-year {
+    font-style: italic;
+}
